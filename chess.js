@@ -3,7 +3,7 @@
 // Configs for the chessboard
 let width = document.documentElement.clientWidth;
 if (width > 1000) width = 1000;
-const canvasSize = 100 * parseInt(width / 100) - 30;
+const canvasSize = width - 30;
 const squareSize = canvasSize / 8;
 const fontSmall = canvasSize / 50;
 const fontLarge = canvasSize / 25;
